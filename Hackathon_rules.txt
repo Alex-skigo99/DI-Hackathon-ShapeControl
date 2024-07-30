@@ -1,0 +1,44 @@
+Dear students, you will start your 2nd Hackathon tomorrow, Wed 24/07/24
+
+TOPIC OF THE HACKATHON
+backend with Node.js and PostgreSQL, frontend with static files or EJS templates.
+The project should solve one of the following topics:
+	Reduce stress and anxiety.
+	Fitness and diet strategies.
+	Budget Management.
+
+ABOUT THE HACKATHON
+1. Duration: The hackathon starts tomorrow, Wed 24/07, until Sunday 28/07.
+2. You should work in a group of maximum 2 people. You can also do the project alone if you want, but we STRONGLY recommend you to work in pairs.
+3. You need to use the topics we 've learn so far.
+
+BEFORE THE START OF THE HACKATHON
+1. Read the steps of the hackathon - they are all written in the platform of this week day5 in the page "Some Advice For The Hackathon"
+
+2. MANDATORY - create a Github repository and use Github branches. You need to create a new branch for each new feature.  Add 
+@Diana Gureev
+ as collaborator. Look for DiGureev.
+
+3. Write down the name of the group, the name of the participants and the details of your project on the Google Document here (scroll down to find your cohort #2 hackathon):
+https://docs.google.com/spreadsheets/d/1agdonQgTBvNZdDnUGKqwUxLcENfoBztLDzkgUyyq22g/edit?gid=1444260098#gid=1444260098
+
+4. Your projects needs to be validated before you start working on it.
+
+Tomorrow morning, Send a message by Slack to me 
+@Ziv Chen
+ that explains the details of the features you want to implement and how you want to implement them.
+You can start working in the project after it is validated.
+On Thursday until 6PM you need to have in the google sheet the following links:
+	github repository
+	2min video showing your screen and explaining how your project works (you can use loom.com)
+
+5. You will present your project to the class, on Sunday 28/07 from 15:00 to 16:30 --> 
+@Diana Gureev
+ will evaluate your projects and choose a winner.
+
+I am super excited to see your projects!
+Please fell free to contact me if you have any concern or questions
+
+
+Good luck!
+

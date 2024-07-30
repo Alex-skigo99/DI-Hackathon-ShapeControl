@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer async></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <h2 id="logo">ShapeControl</h2>
+            <h3 id="nav_user"></h3>
+            <li id="nav_signup">
+                <button>Sign Up</button>
+            </li>
+            <li id="nav_login">
+                <button>Log In</button>
+            </li>
+            <li id="nav_report">
+                <button>Report</button>
+            </li>
+            <li id="nav_new">
+                <button>New</button>
+            </li>
+            <li id="nav_current">
+                <button>Last</button>
+            </li>
+        </ul>
+    </nav>
+    <div id="login">
+        <div id="wellcome">
+            <h3>Wellcome</h3>
+            <p>This website helps you control your calorie intake and schedule your workout activiteis</p>
+            <p>First, introduce yourself...</p>
+        </div>
+        <div class="login_container frame">
+            <form name="loginForm" class="form_log_sign">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" required>
+                <input type="submit" value="Login">
+                <p id="err_login" class="error"></p>
+            </form>
+        </div>
+    </div>
+    <div id="signup">
+        <div id="wellcome">
+            <h3>Wellcome</h3>
+            <p>This website helps you control your calorie intake and schedule your workout activiteis</p>
+            <p>First, introduce yourself...</p>
+        </div>
+        <div class="signup_container frame">
+            <form name="signupForm" class="form_log_sign">
+                <label>Username: </label>
+                <input type="text" name="username" required>
+                <label>Age: </label>
+                <input type="text" name="age" required>
+                <label>Gender: </label>
+                <input type="radio" id="radio_1" name="gender" value="male" checked="true">
+                <label for="radio_1">male</label>
+                <input type="radio" id="radio_2" name="gender" value="female">
+                <label for="radio_2">female</label><br>
+                <input type="submit" value="Sign Up">
+                <p id="err_signup" class="error"></p>
+            </form>
+        </div>
+    </div>
+    <div id="current">
+        <div class="frame current_container">
+            <h3>Week: <span class="prog_name"></span> Level: <span class="level"></span></h3>
+            <p>Begining weight: <span class="in_weight"></span></p>
+            <form name="currentForm" id="currentForm">
+                <div class="row row-title">
+                    <input type="text" class="top day" value="Day" disabled>
+                    <input type="text" class="top plan" value="Needs, kcal" disabled>
+                    <input type="text" class="top fact" value="Actually, kcal" disabled>
+                    <input type="text" class="top is_training" value="Training" disabled>
+                    <input type="text" class="top comment" value="Comment" disabled>
+                </div>
+                <div class="table">
+                    // insert data from js
+                </div>
+                <p>Weight at the end: <input type="text" class="out_weight"></p>
+                <input type="checkbox" class="close_check" id="close_check" name="close_check" value="close">
+                <label for="close_check"> close this program.</label>
+                <input type="submit" class="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div id="new">
+        <div class="frame new_container">
+            <h2>New 7-days program</h2>
+            <form name="newForm" id="newForm">
+                <label>Program name: </label>
+                <input type="text" class="progname" name="progname">
+                <label>Actual weight: </label>
+                <input type="text" class="input_weight" name="in_weight">
+                <label>Level: </label>
+                <input type="radio" id="radio_3" name="level" value="stable" checked="true">
+                <label for="radio_3">stable</label>
+                <input type="radio" id="radio_4" name="level" value="progress">
+                <label for="radio_4">progress</label>
+                <input type="radio" id="radio_5" name="level" value="jump">
+                <label for="radio_5">jump</label><br>
+                <div class="row row-title">
+                    <input type="text" class="top day" value="Day" disabled>
+                    <input type="text" class="top plan" value="Needs, kcal" disabled>
+                    <input type="text" class="top is_training" value="Training" disabled>
+                    <input type="text" class="top comment" value="Comment" disabled>
+                </div>
+                <div class="table">
+                    // insert data from js
+                </div>
+                <label>Level: </label>
+                <input type="text" class="comment" name="comment">
+                <input type="submit" class="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+    <div id="report">
+
+    </div>
+</body>
+
+</html>

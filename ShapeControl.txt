@@ -1,0 +1,26 @@
+ShapeControl
+
+This app helps you control calorie intake.
+This is a base version that can be supplemented with API information and detailed analytics.
+
+Schema:
+
+start page -> index.html with navbar and data like total users, total plans etc.
+navbar -> current plan, report, login, registration
+login, registration in database ShapeControl, table Users -> {id, username, age, weight}
+after login you see current plan or can create it if you don't have it.
+
+Current plan for a week:
+    Day     calories intake     training day
+            plan       fact
+    Sunday  2500       ____
+    Monday  3000       ____            v
+    ...
+    total   18500               
+
+you can fill fact and submit to backend to store in the table Data ->
+{id, date, week, plan_cal, fact_cal, training, user_id}
+
+To create a plan you put age, weight, training days in the form. Then it POST to database.
+
+Page 'report' givs you ability to choose data from database for every passed week with some analytic.
